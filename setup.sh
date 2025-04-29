@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # cpp
+ROOT_DIR=$(dirname "$(realpath "$0")")
 BUILD_DIR="$ROOT_DIR/src/cpp/build"
 
 if [ ! -d "$BUILD_DIR" ]; then
