@@ -25,6 +25,3 @@ task2 = threading.Thread(target=send)
 
 task1.start()
 task2.start()
-
-# if __name__ == "__main__":
-#     start_client()
