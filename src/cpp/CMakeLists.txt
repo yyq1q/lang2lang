@@ -21,5 +21,7 @@ include_directories(
 )
 
 add_executable(server ${SERVER_SOURCES})
+target_link_libraries(server pthread)
 
 add_executable(client ${CLIENT_SOURCES})
+target_link_libraries(client pthread)
